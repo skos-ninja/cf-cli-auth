@@ -12,7 +12,7 @@ import (
 
 var (
 	cmd = &cobra.Command{
-		Use:  "github-releaser",
+		Use:  "cf-cli-auth",
 		Args: cobra.ExactArgs(0),
 		RunE: runE,
 	}
